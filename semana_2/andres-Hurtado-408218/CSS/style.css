@@ -12,6 +12,15 @@ body {
     width: 50vw;
     padding: 10px;
     margin: 1%;
+    background: #280A3E;
+    border-left: 8px solid #0f0418;
+    border-radius: 5px;
+}
+
+.bloque-link {
+    width: 50vw;
+    padding: 10px;
+    margin: 1%;
     background: linear-gradient(to right, #280A3E, transparent);
     border-left: 8px solid #0f0418;
     border-radius: 5px;
