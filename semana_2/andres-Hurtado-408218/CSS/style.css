@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Regular;
+    src: url('../CSS/fonts/Montserrat-Regular.ttf');
+}
+
+body {
+    font-family:Regular;
+    background-color: #F2EDD1;
+}
+
+.bloque {
+    width: 50vw;
+    padding: 10px;
+    margin: 1%;
+    background-color: #280A3E;
+    border-left: 8px solid #0f0418;
+    border-radius: 5px;
+}
+
+p, li {
+    color: white;
+}
+
+.externo {
+    color: #689B8A;
+    margin: 1%;
+}
+
+h2 {
+    color: #F9CB99;
+}
+
+h5 {
+    color: #689B8A;
+    margin: 1%;
+}
+
+.rectangulo {
+    border-left: 4px solid #44372a;
+    border-radius: 10px;
+    margin: 1%;
+    width: 30%;
+}
+
+.cuadrado {
+    border-left: 4px solid #44372a;
+    border-radius: 10px;
+    margin: 1%;
+    width: 30%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
