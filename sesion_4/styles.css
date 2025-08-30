@@ -1,0 +1,56 @@
+/*
+Estilos por clase
+
+.class {}
+
+Estilos por ID
+
+#id {}
+
+Estilos pro etiqueta
+
+etiqueta {}
+
+Estilosen linea - No deseado
+
+<div style="color: blue">
+*/
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    padding: 5px;
+}
+
+/*
+.container {
+    border: 2px dashed rgb(119, 66, 66);
+    padding: 10px;
+    margin-bottom: 30px;
+    display: grid;
+}
+*/
+
+.container {
+    border: 2px dashed rgb(119, 66, 66);
+    padding: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*
+.container .items {
+    display:block;
+    width: 100px;
+    height: 100px;
+}
+*/
+
+.items {
+    background: lightcoral;
+    border: 2px solid rgb(138, 95, 79);
+    padding: 1px;
+    margin: 5px;
+}
